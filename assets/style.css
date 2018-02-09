@@ -58,6 +58,36 @@ img {
 	padding-right: 
 
 }
+#img-div {
+    font-size: 8em;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+ 
+#img-div a {
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 2px 0 #721e1e, 0px 2px 5px rgba(0,0,0,0.5);
+    position: relative;
+}
+ 
+#img-div a:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+ 
+ 
+#img-div a:active {
+    text-shadow: none;
+    bottom: 0;
+    text-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+     -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+
+}
 /*.img-div {
 	background-image: url("assets/images/pic3.jpg");
 }
