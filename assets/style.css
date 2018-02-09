@@ -13,7 +13,9 @@ h3{
 
 a{
 	text-decoration: none;
-	color:#777777;
+	color:#003b64;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #faec00, 0px 2px 5px rgba(0,0,0,0.5); 
 }
 .header{
 	height: 120px;
@@ -56,7 +58,6 @@ img {
 	padding: 9px;
 	box-shadow: 0 0 10px #003b64;
 	padding-right: 
-
 }
 #img-div {
     font-size: 8em;
